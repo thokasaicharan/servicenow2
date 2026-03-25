@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="749b704aa97332107f442610e6b18485" sys_domain="global" table="x_cdltd_loaner_r_0_loaner_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-24 12:24:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>789b704aa97332107f442610e6b18486</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_loaner_r_0_loaner_request" name="x_cdltd_loaner_r_0_loaner_request" sys_domain="global" view="92690f31952332107f44693e6bc34e38">749b704aa97332107f442610e6b18485</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_loaner_r_0_loaner_request" sys_domain="global" view="92690f31952332107f44693e6bc34e38">7c9b704aa97332107f442610e6b18483</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-24 12:24:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_cdltd_loaner_r_0_loaner_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-24 12:24:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>749b704aa97332107f442610e6b18485</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_loaner_r_0_loaner_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">54e347ac153332107f447e2f9c688219</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Request">54e347ac153332107f447e2f9c688219</sys_scope>
+            <sys_update_name>sys_ui_form_sections_749b704aa97332107f442610e6b18485</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-24 12:24:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="Self Service" name="ess">92690f31952332107f44693e6bc34e38</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
