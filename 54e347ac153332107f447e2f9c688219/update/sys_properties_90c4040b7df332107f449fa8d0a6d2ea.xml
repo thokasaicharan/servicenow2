@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Number of hours before a reservation starts to send a reminder to the requester</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_cdltd_loaner_r_0.pickup.leadtime</name>
+        <read_roles>x_cdltd_loaner_r_0.admin</read_roles>
+        <suffix>pickup.leadtime</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-27 11:02:03</sys_created_on>
+        <sys_id>90c4040b7df332107f449fa8d0a6d2ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_loaner_r_0.pickup.leadtime</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">54e347ac153332107f447e2f9c688219</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">54e347ac153332107f447e2f9c688219</sys_scope>
+        <sys_update_name>sys_properties_90c4040b7df332107f449fa8d0a6d2ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-27 11:02:03</sys_updated_on>
+        <type>integer</type>
+        <value>24</value>
+        <write_roles>x_cdltd_loaner_r_0.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=90c4040b7df332107f449fa8d0a6d2ea"/>
+</record_update>

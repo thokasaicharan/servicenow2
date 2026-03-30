@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Update LNRs from Global</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[/*  
+Run this script from Global scope both BEFORE _and_ AFTER 
+checking "Can update" from the Loaner Request Table's Application Access section.
+*/
+
+// This method _should_ address occasional instance "bad behavior" during this demo.
+gs.invalidateCache();
+
+// Look up open LNR records
+var loanerRecs = new GlideRecord('x_cdltd_loaner_r_0_loaner_request');
+loanerRecs.addQuery('state','!=',3); // not Closed Complete
+loanerRecs.setLimit(4); // let's not get carried away...
+loanerRecs.query();
+
+// We're in Global scope — in other words, "out of scope." Can we close the LNR records?
+while(loanerRecs.next()){
+	loanerRecs.setValue('state',3); // mark Closed Complete
+	loanerRecs.update(); // save the records
+}
+
+// No dice closing them out? Try checking the "Can update" box on the Loaner Table, then try again!]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-26 12:44:37</sys_created_on>
+        <sys_id>96239b6a013332107f447dd74b69f746</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Update LNRs from Global</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">54e347ac153332107f447e2f9c688219</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">54e347ac153332107f447e2f9c688219</sys_scope>
+        <sys_update_name>sys_script_fix_96239b6a013332107f447dd74b69f746</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-26 12:59:01</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>
