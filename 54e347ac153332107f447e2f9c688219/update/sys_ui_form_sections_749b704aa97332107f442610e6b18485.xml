@@ -7,12 +7,26 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>789b704aa97332107f442610e6b18486</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_loaner_r_0_loaner_request" name="x_cdltd_loaner_r_0_loaner_request" sys_domain="global" view="92690f31952332107f44693e6bc34e38">749b704aa97332107f442610e6b18485</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_loaner_r_0_loaner_request" sys_domain="global" view="92690f31952332107f44693e6bc34e38">35fb680ea93332107f442610e6b1841e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-31 10:13:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-31 10:13:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b90a4dc70c003107f4466ae65c4d50a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_cdltd_loaner_r_0_loaner_request" name="x_cdltd_loaner_r_0_loaner_request" sys_domain="global" view="92690f31952332107f44693e6bc34e38">749b704aa97332107f442610e6b18485</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_loaner_r_0_loaner_request" sys_domain="global" view="92690f31952332107f44693e6bc34e38">7c9b704aa97332107f442610e6b18483</sys_ui_section>
+            <sys_ui_section caption="x_cdltd_loaner_r_0_loaner_request" display_value="x_cdltd_loaner_r_0_loaner_request" name="x_cdltd_loaner_r_0_loaner_request" sys_domain="global" view="92690f31952332107f44693e6bc34e38">c88f64cea93332107f442610e6b184e3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-24 12:24:44</sys_updated_on>
+            <sys_updated_on>2026-03-31 10:13:15</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_cdltd_loaner_r_0_loaner_request</name>
